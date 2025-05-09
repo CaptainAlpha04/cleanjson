@@ -64,6 +64,3 @@ cleanJSON(`{
 
 MIT © [captainAlpha04](https://github.com/CaptainAlpha04)
 
----
-
-Would you like me to auto-generate this file and save it for publishing, or modify any section?
