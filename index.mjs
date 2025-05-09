@@ -3,7 +3,7 @@
  * @param {string} content - The JSON string to clean
  * @returns {Object|null} Parsed JSON object or null if invalid
  */
-export function cleanJSON(content) {
+function cleanJSON(content) {
     try {
         // Handle case where content is already an object
         if (typeof content === 'object') {
@@ -24,3 +24,5 @@ export function cleanJSON(content) {
         return null;
     }
 }
+
+export default cleanJSON;
